@@ -24,7 +24,7 @@ android {
     buildToolsVersion '30.0.3'
 
     defaultConfig {
-        applicationId "bluehorse.clover"
+        applicationId "pinkhorse.clover"
         minSdkVersion 17
         targetSdkVersion 29
 

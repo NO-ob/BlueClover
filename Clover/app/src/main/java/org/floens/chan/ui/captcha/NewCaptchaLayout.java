@@ -85,7 +85,7 @@ public class NewCaptchaLayout extends WebView implements AuthenticationLayoutInt
 
         WebSettings settings = getSettings();
         settings.setJavaScriptEnabled(true);
-        settings.setUserAgentString(BuildConfig.USER_AGENT);
+        //settings.setUserAgentString(BuildConfig.USER_AGENT);
 
         setWebChromeClient(new WebChromeClient() {
             @Override
